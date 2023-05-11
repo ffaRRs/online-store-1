@@ -1,0 +1,28 @@
+Создали файл package.json командой:
+    npm init -y
+
+Устанавливаем нужные зависимости: 
+    npm install express pg pg-hstore sequeluze cors dotenv
+
+После установки добавляются зависимости:
+
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "pg": "^8.10.0",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.31.0"
+    }
+
+Чтобы автоматически перезапускать сервер:
+    npm install -D nodemon
+
+В папке package.json напишем скрипт, который будет запускать код.
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+
+В Index.js мы запускаем сервер
+
+В папке db.js осуществляем подключение к базе данных 

@@ -1,0 +1,63 @@
+.product-slider-vert {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    // min-width: 0
+    // display: flex;
+    // align-items: center;
+    // max-width: 100%;
+    // display: flex;
+    width: 85px;
+    height: 380px;
+
+    &__prev,
+    &__next {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        width: 24px;
+        height: 24px;
+        // border-radius: 50%;
+        background-image: url('../../../public/img/product/arrow.svg');
+        background-repeat: no-repeat;
+        background-position: 55% 50%;
+        // background-color: #2A2A2A;
+        cursor: pointer;
+    }
+
+    &__next {
+        bottom: 0px;
+        transform: translateX(-50%) rotate(90deg);
+    }
+
+    &__prev {
+        top: 0px;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background: #FFFFFF;
+        border: 1px solid rgba(217, 217, 217, 0.39);
+        border-radius: 9px;
+
+        img {
+            height: 75px;
+            object-fit: cover;
+        }
+
+        &-thumb-active {
+            // width: 85px;
+            // height: 85px;
+            background: #FFFFFF;
+            border: 1px solid #C4C4C4;
+            border-radius: 9px;
+            overflow: hidden;
+        }
+    }
+}

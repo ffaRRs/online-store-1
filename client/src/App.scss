@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url("/fonts/trebuc.woff") format("woff")
+   }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+
+
+.container{
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    padding-top: 135px;
+}
