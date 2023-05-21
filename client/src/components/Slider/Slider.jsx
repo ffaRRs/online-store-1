@@ -49,7 +49,7 @@ const Slider = () => {
                                 <a className="info-slide__more" href="#">
                                     Подробнее
                                 </a>
-                            </div>
+                            </div>я
                         </SwiperSlide>
                     );
                 })}

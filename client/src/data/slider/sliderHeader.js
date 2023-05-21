@@ -1,27 +1,27 @@
 const sliderHeader = [
     {
         title: "Самая популярная карточная игра",
-        name: "Magic: the Gathering",
-        img: "./img/slider/1.jpg",
-    },
-    {
-        title: "Самая популярная карточная",
         name: "Wharhammer",
         img: "./img/slider/1.jpg",
     },
     {
-        title: "Самая популярная",
+        title: "Самые интересные",
         name: "Мероприятия",
         img: "./img/slider/1.jpg",
     },
     {
-        title: "Самая игра",
+        title: "Самые актуальные",
+        name: "Специальные предложения",
+        img: "./img/slider/1.jpg",
+    },
+    {
+        title: "Наши актуальные",
         name: "Контакты",
         img: "./img/slider/1.jpg",
     },
     {
-        title: "Самая карточная игра",
-        name: "+7 (495) 911-10-11",
+        title: "Wharhammer",
+        name: "Больше интересной информации",
         img: "./img/slider/1.jpg",
     },
 ];

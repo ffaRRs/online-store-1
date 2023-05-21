@@ -6,7 +6,7 @@ import EventItem from "./EventItem/EventItem";
 
 const Event = () => {
     return (
-        <div className="event">
+        <div className="event" name="Event">
             <div className="event__title">Ближайшие мероприятия</div>
             <div className="event__content">
                 <div className="event__row">

@@ -34,7 +34,7 @@ const SliderBuy = ({ name, id }) => {
 
     if (!slideTimeBuy) return <p>Товаров нету</p>;
     return (
-        <div className="timebuy">
+        <div className="timebuy" name="Timebuy">
             <div className="timebuy__title">{name}</div>
             <Swiper
                 modules={[Navigation, EffectFade]}

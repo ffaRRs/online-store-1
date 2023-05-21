@@ -1,5 +1,4 @@
 const warhammer4000 = [
-    'Альтернативные миниатюры',
     'Warhammer 40k',
     'Age of Sigmar',
     'Warcry',

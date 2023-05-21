@@ -1,9 +1,12 @@
 import React from "react";
 import "./Footer.scss";
+import {
+    Element
+  } from "react-scroll";
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" name="Footer">
             <div className="footer__line">
                 <div className="container">
                     <div className="footer__row">
@@ -15,7 +18,7 @@ const Footer = () => {
                                 г. Москва ст.м. Таганская Малый Дровяной
                                 переулок 6
                             </div>
-                        </div>
+                        </div>       
                         <div className="footer__menu menu-footer">
                             <div className="menu-footer__catalog catalog-footer">
                                 <div className="catalog-footer__title">

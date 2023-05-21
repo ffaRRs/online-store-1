@@ -6,7 +6,7 @@ import catalog from "../../data/catalog";
 
 const Catalog = () => {
     return (
-        <div className="catalog">
+        <div className="catalog" name="Catalog">
             <div className="catalog__title">Каталог</div>
             <div className="catalog__row">
                 <div className="catalog__column">

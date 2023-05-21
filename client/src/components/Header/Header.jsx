@@ -6,12 +6,14 @@ import axios from "axios";
 import { Context } from "../..";
 import { Link } from "react-router-dom";
 
+
+
 const Header = () => {
     const { dropMenuStore, cartStore } = useContext(Context);
     // const [count, setCount] = useState(cartStore.countProduct)
 
     return (
-        <div className="header">
+        <div className="header" name="Header">
             <div className="container">
                 <div className="header__row">
                     <div
@@ -30,7 +32,7 @@ const Header = () => {
                     </div>
                     <Link to={`/`}>
                         <div className="header__logo">
-                            <img src="img/header/logo.png" alt="LOGO" />
+                            <img src="img/header/logo.png" alt="LOGO"/>
                         </div>
                     </Link>
                     
@@ -56,11 +58,6 @@ const Header = () => {
                         </a>
                     </div>
                     <div className="header__info info-header">
-                        <img
-                            src="img/header/user.svg"
-                            className="info-header__profile"
-                            alt="profile"
-                        />
                         <Link to={`/cart`}>
                             <div className="info-header__cart cart-info">
                                 <img
